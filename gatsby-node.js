@@ -20,7 +20,8 @@ exports.createPages = ({graphql,actions })=>{
     result.data.allContentfulProduct.edges.forEach(({node})=>{
       createPage({
         path:`products/${node.title}`,
-        component:path.resolve('.\\src\\templates\\product-template.js'),
+        component:path.resolve(`./src/templates/product-template.js`),
+        //component:path.resolve('.\\src\\templates\\product-template.js'),
         context:{
         id:node.id,
         },
