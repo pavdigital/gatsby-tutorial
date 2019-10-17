@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import {Button} from "../components/Button"
+import {Button} from "../components/button"
 import { FaApple } from "react-icons/fa"
 import Info from '../components/info'
 import Dude from  '../components/dude'
